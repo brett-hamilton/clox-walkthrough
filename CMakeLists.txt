@@ -7,6 +7,9 @@ add_executable(clox)
 target_sources(clox
   PRIVATE
     main.c
+    chunk.c
+    memory.c
+    debug.c
 )
 
 target_include_directories(clox
