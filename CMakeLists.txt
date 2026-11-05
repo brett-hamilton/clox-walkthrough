@@ -10,6 +10,7 @@ target_sources(clox
     chunk.c
     memory.c
     debug.c
+    value.c
 )
 
 target_include_directories(clox
