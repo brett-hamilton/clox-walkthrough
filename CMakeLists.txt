@@ -11,6 +11,7 @@ target_sources(clox
     memory.c
     debug.c
     value.c
+    vm.c
 )
 
 target_include_directories(clox
